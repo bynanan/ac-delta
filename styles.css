@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Permanent+Marker&display=swap');
+
+.container-a {
+    margin-top: 70px;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+.container-b {
+    margin-top: 70px;
+    text-align: center;
+    color: black;
+}
+
+p {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Manrope', sans-serif;
+    font-size: larger;
+}
+
+.footer {
+    background-color: rgba(74, 105, 189, 0.7);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+.btn-yellow {
+    background: #f6b93b;
+    font-size: 20px;
+    color: #574500;
+    border: none;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    
+  }
+  .btn-yellow:hover, .btn-yellow:focus {
+    background: #f6b93b;
+  }
+  .btn-yellow:active {
+    background: #f6b93b;
+  }
+  
+  
+.navbar {
+    min-height: 12px;
+}
+
+body {
+    background: url(./assets/plane2.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.cert-cont {
+    margin: 75px;
+    display: flex;
+    justify-content: space-around;
+}
